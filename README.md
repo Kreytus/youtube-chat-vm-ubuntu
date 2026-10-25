@@ -8,7 +8,7 @@ you will have to go to install directory and go to sdk and the one folder in the
 then run:
 ```
 pip install setuptools
-pip install .
+pip install vbox-sdk
 ```
 now you have vboxapi. do this:
 ```
