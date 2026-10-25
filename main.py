@@ -199,7 +199,7 @@ def process_command_array(parts):
 
         case "!run":
             if args:
-                run_dialog_command(" ".join(args))
+                run_cmd_command(" ".join(args))
             else:
                 add_sys_message("Usage: !run <thing>")
 
@@ -207,7 +207,7 @@ def process_command_array(parts):
             if args:
                 # runs a command in cmd
                 command_to_run = f"cmd /k " + " ".join(args)
-                run_dialog_command(command_to_run)
+                run_cmd_command(command_to_run)
             else:
                 add_sys_message("Usage: !cmd <command>")
 
