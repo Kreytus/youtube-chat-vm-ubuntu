@@ -352,6 +352,14 @@ def run_dialog_command(thing_to_run):
     time.sleep(0.2)
     press_key(get_key_scancode("enter"))
 
+def run_cmd_command(thing_to_run):
+    # open windows run dialog
+    combo(["ctrl", "alt", "t"]) 
+    time.sleep(0.8) 
+    type_text(thing_to_run)
+    time.sleep(0.2)
+    press_key(get_key_scancode("enter"))
+
 def move_mouse(x, y):
     # ignore this this is just so i know how to use mouse
     # Move the mouse relatively and simulate button clicks
