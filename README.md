@@ -1,5 +1,5 @@
-# youtube-chat-vm
-script to do Chat uses windows!
+# youtube-chat-vm-ubuntu
+script to do Chat uses ubuntutu!
 
 # setup
 get virtualbox if you dont already.
@@ -24,17 +24,17 @@ yes but please credit me.
 
 if you dont know how to credit me you can use these:
 ```
-script made by jimhasaburger on github (github.com/jimhasaburger/youtube-chat-vm)
+script made by jimhasaburger and modified by kreytus on github (github.com/Kreytus/youtube-chat-vm-ubuntu)
 ```
 ```
-script originally made by jimhasaburger on github (github.com/jimhasaburger/youtube-chat-vm), modified.
+script originally made by jimhasaburger and modified by kreytus on github (github.com/Kreytus/youtube-chat-vm-ubuntu), modified.
 ```
 
 you absolutely dont need to use these, its enough to give the link or my username.
 
-# What is chat uses windows?
+# What is chat uses ubuntu?
 
-people on youtube run their own scripts and vms and make youtube chat use windows, a popular youtubers are: vlc2, halo hunter, reallyiron, and some others i don't know
+people on youtube run their own scripts and vms and make youtube chat use ubuntu, a popular youtubers are: vlc2, halo hunter, reallyiron, and some others i don't know
 
 i was inspired by halo hunter (first person i saw doing this)
 
@@ -50,9 +50,9 @@ of course. use pull requests.
 # commands list for your stream:
 ```
 COMMANDS:
-(you can chain them)
+(can chain)
 
-!help (only works if chat overlay is there
+!help (only works if chat overlay is there)
 
 !key [key_name]
 
@@ -82,5 +82,5 @@ COMMANDS:
 
 !cmd [text] (opens run and puts cmd - whatever text you put here)
 
-!run [thing to run in win r]
+!run [text] (opens run and puts cmd - whatever text you put here (combined with !cmd cause ubuntu doesnt have a win+r alternative) )
 ```
