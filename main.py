@@ -343,15 +343,7 @@ def type_text(text):
         scancode = get_key_scancode(char.lower())
         if scancode:
             press_key(scancode, shift=is_upper)
-
-def run_dialog_command(thing_to_run):
-    # open windows run dialog
-    combo(["win", "r"]) 
-    time.sleep(0.8) 
-    type_text(thing_to_run)
-    time.sleep(0.2)
-    press_key(get_key_scancode("enter"))
-
+            
 def run_cmd_command(thing_to_run):
     # open windows run dialog
     combo(["ctrl", "alt", "t"]) 
